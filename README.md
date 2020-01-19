@@ -44,9 +44,26 @@ your `bsconfig.json`. Something like
 
 ## Usage
 
-### Types
+```re
+open ReactNative
 
-#### `ReactNativeLinearGradient.t`
+module MyApp = {
+  let styles = Style.(
+    StyleSheet.create({
+      "container": viewStyle(~flex=1., ())
+    })
+  );
+
+  [@react.component]
+  let make = () => {
+    <ReactNativeLinearGradient colors=[|"#faa", "#afa"|] style=styles##container>
+      <Text>
+        "Hello world"->React.string
+      </Text>
+    </ReactNativeLinearGradient>
+  }
+};
+```
 
 ---
 
