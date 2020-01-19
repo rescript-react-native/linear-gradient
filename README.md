@@ -44,7 +44,7 @@ your `bsconfig.json`. Something like
 
 ## Usage
 
-```re
+```reason
 open ReactNative
 
 module MyApp = {
