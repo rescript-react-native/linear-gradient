@@ -1,17 +1,5 @@
-# Changelog of `@reason-react-native/__template__`
+# Changelog of `@reason-react-native/linear-gradient`
 
-## X.Y.Z - 20YY-MM-DD
+## 2.5.6 - 2020-01-20
 
-Short & concise description
-
-### 💥 Breaking changes
-
-- Something, in [1234567](<link to commit on github>) by @<usename>
-
-### 🐛 Fixes
-
-- Something else, in [1234567](<link to commit on github>) by @<usename>
-
-### Internal changes
-
-(If worth mentioning)
+2.5.6 release
