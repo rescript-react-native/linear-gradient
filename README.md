@@ -4,14 +4,13 @@
 [![Version](https://img.shields.io/npm/v/@reason-react-native/linear-gradient.svg)](https://www.npmjs.com/@reason-react-native/linear-gradient)
 [![Chat](https://img.shields.io/discord/235176658175262720.svg?logo=discord&colorb=blue)](https://reasonml-community.github.io/reason-react-native/discord/)
 
-[ReasonML](https://reasonml.github.io) /
-[BuckleScript](https://bucklescript.github.io) bindings for
+[ReScript](https://rescript-lang.org) / [Reason](https://reasonml.github.io) bindings for
 [`react-native-linear-gradient`](https://github.com/react-native-community/react-native-linear-gradient).
 
 Exposed as `ReactNativeLinearGradient` module.
 
-`@reason-react-native/linear-gradient` X.y._ means it's compatible with
-`react-native-linear-gradient` X.y._
+`@reason-react-native/linear-gradient` X.y.\* means it's compatible with
+`react-native-linear-gradient` X.y.\*
 
 ## Installation
 
@@ -27,7 +26,7 @@ yarn add @reason-react-native/linear-gradient
 ```
 
 `@reason-react-native/linear-gradient` should be added to `bs-dependencies` in
-your `bsconfig.json`. Something like
+your `bsconfig.json`:
 
 ```diff
 {
