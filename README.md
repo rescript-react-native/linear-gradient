@@ -5,7 +5,7 @@
 [![Chat](https://img.shields.io/discord/235176658175262720.svg?logo=discord&colorb=blue)](https://reasonml-community.github.io/reason-react-native/discord/)
 
 [ReScript](https://rescript-lang.org) / [Reason](https://reasonml.github.io) bindings for
-[`react-native-linear-gradient`](https://github.com/react-native-community/react-native-linear-gradient).
+[`react-native-linear-gradient`](https://github.com/react-native-linear-gradient/react-native-linear-gradient).
 
 Exposed as `ReactNativeLinearGradient` module.
 
@@ -15,7 +15,7 @@ Exposed as `ReactNativeLinearGradient` module.
 ## Installation
 
 When
-[`react-native-linear-gradient`](https://github.com/react-native-community/react-native-linear-gradient)
+[`react-native-linear-gradient`](https://github.com/react-native-linear-gradient/react-native-linear-gradient)
 is properly installed & configured by following their installation instructions,
 you can install the bindings:
 
