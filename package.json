@@ -1,5 +1,5 @@
 {
-  "name": "@reason-react-native/linear-gradient",
+  "name": "@rescript-react-native/linear-gradient",
   "description": "ReScript bindings for react-native-linear-gradient.",
   "version": "2.5.7",
   "publishConfig": {
@@ -8,19 +8,17 @@
   "peerDependencies": {
     "react-native-linear-gradient": "2.5.6"
   },
-  "repository": "https://github.com/reason-react-native/linear-gradient.git",
+  "repository": "https://github.com/rescript-react-native/linear-gradient.git",
   "license": "MIT",
   "keywords": [
     "rescript",
-    "reason",
-    "reasonml",
-    "bucklescript",
     "react-native"
   ],
   "files": [
     "*.md",
     "bsconfig.json",
-    "src/**/*.re",
+    "src/**/*.res",
+    "src/**/*.resi",
     "src/**/*.js",
     "!src/**/*.bs.js"
   ],
@@ -37,14 +35,14 @@
     "release": "npmpub"
   },
   "devDependencies": {
-    "bs-platform": "^8.2.0",
+    "bs-platform": "^9.0.0",
     "husky": "^4.0.0",
     "lint-staged": "^10.0.0",
     "npmpub": "^5.0.0",
     "prettier": "^2.0.0",
     "react-native-linear-gradient": "2.5.6",
-    "reason-react": "^0.9.0",
-    "reason-react-native": "^0.63.0"
+    "@rescript/react": "^0.10.0",
+    "rescript-react-native": "^0.64.3"
   },
   "prettier": {
     "trailingComma": "all"

@@ -1,4 +1,4 @@
-# Changelog of `@reason-react-native/linear-gradient`
+# Changelog of `@rescript-react-native/linear-gradient`
 
 ## 2.5.7 - 2020-11-17
 
